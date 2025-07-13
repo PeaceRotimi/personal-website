@@ -1,0 +1,60 @@
+html {
+font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    padding:2.5rem;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #fff;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    height: 5rem;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    line-height: 5rem;
+    padding: 0.3rem;
+    color:black;
+}
+
+.navbar a:hover{
+    color:black;
+    opacity: 0.5;
+}
+
+.navleft{
+    float:left;
+}
+
+.navright{
+    float:right;
+}
+
+.top{
+    padding-top: 3rem;
+}
